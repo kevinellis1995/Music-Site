@@ -1,3 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-image: url("imgs/nightSky.jpg");
+    background-size: cover;
+    z-index: 1;
 }
