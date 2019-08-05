@@ -1,5 +1,18 @@
 body {
-    background-image: url("imgs/nightSky.jpg");
-    background-size: cover;
-    z-index: 1;
+    background-color: rgb(48, 43, 43);
+}
+
+#mainTitle {
+    background-color: rgb(4, 115, 167)
+}
+#mainTitle h1{
+    font-family: 'Grenze', serif;
+    font-size: 4.6rem;
+}
+#links {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 22rem 22rem 22rem;
+    grid-column-gap: 8px;
+    
 }
