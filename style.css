@@ -1,5 +1,39 @@
 body {
-    background-image: url("imgs/nightSky.jpg");
-    background-size: cover;
-    z-index: 1;
+    background-color: rgb(48, 43, 43);
+}
+
+#mainTitle {
+    background-color: rgb(4, 115, 167)
+}
+#mainTitle h1{
+    font-family: 'Grenze', serif;
+    font-size: 4.7rem;
+}
+#links {
+    position: static;
+    width: 100%;
+    padding: 25px 3px;
+    display: grid;
+    /* grid-template-rows: */
+    grid-template-columns: 20% 25% 10% 25% 20%;
+    /* grid-column-gap: 15px; */
+    /* grid-column-start: 1;   */
+}
+#card1{
+    grid-column-start: 2;
+}
+#card2 {
+    grid-column-start: 4;
+}
+.card-img-top{
+    /* height: 70px; */
+}
+.card {
+    background-color: rgb(4, 115, 167);
+}
+#footer1 {
+    background-color: cadetblue;
+    text-align: center;
+    position: fixed bottom;
+    
 }
